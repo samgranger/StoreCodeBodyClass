@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © 2017 Sam Granger. All rights reserved.
+ *
+ * @author Sam Granger <sam.granger@gmail.com>
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:Event/etc/events.xsd">
+    <event name="controller_action_predispatch">
+        <observer name="samgranger_storecodebodyclass" instance="SamGranger\StoreCodeBodyClass\Plugin\StoreCodeBodyClassPlugin" shared="false" />
+    </event>
+</config>
