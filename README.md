@@ -9,3 +9,6 @@ php bin/magento setup:upgrade
 ```
 
 You might have to clear Magento's cache after installation to see the changes depending on your situation.
+
+## License
+This module has been released under the MIT license.
