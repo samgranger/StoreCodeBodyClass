@@ -1,0 +1,22 @@
+{
+  "name": "samgranger/module-store-code-body-class",
+  "description": "The Store Code Body Class module for Magento2 adds the store code to the body class.",
+  "type": "magento2-module",
+  "version": "0.0.1",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Sam Granger",
+      "email": "sam.granger@gmail.com",
+      "homepage": "http://www.github.com/samgranger"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "SamGranger\\StoreCodeBodyClass\\": ""
+    }
+  }
+}
