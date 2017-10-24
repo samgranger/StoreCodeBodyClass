@@ -27,7 +27,10 @@ class StoreCodeBodyClassPlugin implements ObserverInterface
     }
 
     public function execute(Observer $observer){
-        $storeCode = $this->storeManager->getStore()->getCode();
+        $store = $this->storeManager->getStore();
+        $storeCode = $store->getCode();
+        $websiteCode = $store->getWebsite()->getCode();
         $this->config->addBodyClass($storeCode);
+        $this->config->addBodyClass($websiteCode);
     }
 }
