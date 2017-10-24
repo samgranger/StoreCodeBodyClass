@@ -1,6 +1,6 @@
 # Magento 2 Store Code Body Class Plugin
 
-As the name suggests, this plugin simply adds the store code to the body class.
+As the name suggests, this plugin simply adds the store & website code to the body class.
 
 ## Install
 ```
